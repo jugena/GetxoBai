@@ -54,6 +54,7 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   min-height: 100vh;
+  min-height: 100dvh; /* Evita desbordamiento en móviles por barra del navegador */
   overflow: hidden; /* Main container handles scrolling */
   user-select: none;
   -webkit-font-smoothing: antialiased;
@@ -71,6 +72,7 @@ input, select, textarea, button {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  height: 100dvh; /* Usa la altura dinámica del viewport para no ocultar el menú inferior */
   width: 100%;
   max-width: 600px; /* Centered layout for desktop previewers */
   margin: 0 auto;
