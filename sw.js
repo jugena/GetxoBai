@@ -1,5 +1,6 @@
 const CACHE_NAME = 'getxobai-v1';
 const ASSETS = [
+  './',
   'index.html',
   'style.css',
   'app.js',
