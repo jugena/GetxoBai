@@ -40,6 +40,10 @@
   --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+html {
+  font-size: 80%; /* Reduce all rem-based typography by 20% globally */
+}
+
 /* Base Styles & Mobile Reset */
 * {
   margin: 0;
