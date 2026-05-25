@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bilbo-drinks-v1';
+const CACHE_NAME = 'getxobai-v1';
 const ASSETS = [
   'index.html',
   'style.css',
@@ -6,7 +6,9 @@ const ASSETS = [
   'manifest.json',
   'icons/icon-192.png',
   'icons/icon-512.png',
-  'img/getxo.png'
+  'img/getxo.png',
+  'img/screenshot_mobile.png',
+  'img/screenshot_desktop.png'
 ];
 
 // Install Event - Caching basic app shell assets
