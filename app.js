@@ -290,14 +290,9 @@ function saveState() {
   localStorage.setItem('getxo_bai_state', JSON.stringify(state));
 }
 
-// Reset orders for the active people using their preferred drinks
+// Reset orders for the active people (empty for new session, allowing custom assignments)
 function initializeCurrentOrders() {
   state.currentOrders = {};
-  state.people.forEach(person => {
-    if (person.active) {
-      state.currentOrders[person.id] = person.defaultDrinkId || (state.drinks[0] ? state.drinks[0].id : '');
-    }
-  });
 }
 
 // Router for Tabs
